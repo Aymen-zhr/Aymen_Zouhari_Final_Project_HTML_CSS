@@ -29902,4 +29902,62 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+#heroCarousel .carousel-item {
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#heroCarousel .carousel-item.firstSlide {
+  background-image: url("../img/hero-carousel/hero-carousel-1.jpg");
+}
+#heroCarousel .carousel-item.secondSlide {
+  background-image: url("../img/hero-carousel/hero-carousel-2.jpg");
+}
+#heroCarousel .carousel-item.thirdSlide {
+  background-image: url("../img/hero-carousel/hero-carousel-3.jpg");
+}
+#heroCarousel .carousel-item .darkOverlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+#heroCarousel .carousel-item .heroContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 5;
+}
+#heroCarousel .carousel-item .heroContent h2, #heroCarousel .carousel-item .heroContent .h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+#heroCarousel .carousel-item .heroContent p {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1.2rem;
+}
+#heroCarousel .carousel-item .ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+#heroCarousel .carousel-item .ctaButtons a {
+  border: 2px solid #ffc451;
+  padding: 10px 25px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#heroCarousel .carousel-item .ctaButtons a:hover {
+  background: #ffc451;
+  color: black;
+}
+
 /*# sourceMappingURL=app.css.map */
