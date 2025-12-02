@@ -29971,21 +29971,26 @@ textarea.form-control-lg {
   height: 60vh;
   padding-inline: 15vw;
 }
-
-div ul {
+.aboutSection div ul {
   padding: 0;
   list-style: none;
 }
-div li {
-  padding-bottom: 10px;
-}
-div li i {
+.aboutSection div li i {
   font-size: 1.2vw;
 }
-
-img {
+.aboutSection div img {
   width: 30vw;
   height: 40vh;
+}
+.aboutSection .aboutTitle div h2, .aboutSection .aboutTitle div .h2 {
+  font-size: 1.5vw;
+  font-weight: 700;
+  opacity: 0.8;
+  font-family: "Satisfy", sans-serif;
+}
+.aboutSection .aboutTitle div p {
+  font-style: italic;
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=app.css.map */
