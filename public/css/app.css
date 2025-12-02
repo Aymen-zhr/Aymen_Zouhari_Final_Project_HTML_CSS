@@ -30133,4 +30133,9 @@ textarea.form-control-lg {
   background-color: #ffc451;
 }
 
+.gallery img {
+  width: 24.9vw;
+  height: 34vh;
+}
+
 /*# sourceMappingURL=app.css.map */
