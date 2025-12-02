@@ -29822,21 +29822,23 @@ textarea.form-control-lg {
   padding: 15px 0;
   background: rgba(0, 0, 0, 0.336);
 }
-#mainHeader .topBar {
+
+.topBar {
   height: 20px;
   font-size: 14px;
   color: #fff;
   margin-bottom: 10px;
 }
-#mainHeader .topBar i {
+.topBar i {
   color: #ffb03b;
 }
-#mainHeader .topBar i span {
+.topBar span {
   color: #fff;
   padding-left: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-#mainHeader .Logo {
+
+.Logo {
   font-family: "Satisfy", sans-serif;
   font-size: 28px;
   margin: 0;
@@ -29845,7 +29847,7 @@ textarea.form-control-lg {
   font-weight: 600;
   letter-spacing: 1px;
 }
-#mainHeader .Logo a {
+.Logo a {
   color: #fff;
   text-decoration: none;
 }
@@ -29857,12 +29859,12 @@ textarea.form-control-lg {
   list-style: none;
   align-items: center;
 }
-.navigation ul li {
+.navigation li {
   position: relative;
   white-space: nowrap;
   padding: 10px 0 10px 24px;
 }
-.navigation ul li a {
+.navigation li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29876,7 +29878,7 @@ textarea.form-control-lg {
   position: relative;
   text-decoration: none;
 }
-.navigation ul li a:hover, .navigation ul li a.active {
+.navigation li:hover, .navigation li.active {
   color: #ffb03b;
 }
 .navigation .mobilecheck {
@@ -29902,28 +29904,28 @@ textarea.form-control-lg {
   color: #fff;
 }
 
-#heroCarousel .carousel-item {
+.carousel-item {
   height: 100vh;
   position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-#heroCarousel .carousel-item.firstSlide {
+.carousel-item.firstSlide {
   background-image: url("../img/hero-carousel/hero-carousel-1.jpg");
 }
-#heroCarousel .carousel-item.secondSlide {
+.carousel-item.secondSlide {
   background-image: url("../img/hero-carousel/hero-carousel-2.jpg");
 }
-#heroCarousel .carousel-item.thirdSlide {
+.carousel-item.thirdSlide {
   background-image: url("../img/hero-carousel/hero-carousel-3.jpg");
 }
-#heroCarousel .carousel-item .darkOverlay {
+.carousel-item .darkOverlay {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
 }
-#heroCarousel .carousel-item .heroContent {
+.carousel-item .heroContent {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -29932,22 +29934,22 @@ textarea.form-control-lg {
   color: #fff;
   z-index: 5;
 }
-#heroCarousel .carousel-item .heroContent h2, #heroCarousel .carousel-item .heroContent .h2 {
+.carousel-item h2, .carousel-item .h2 {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
-#heroCarousel .carousel-item .heroContent p {
+.carousel-item p {
   max-width: 700px;
   margin: 0 auto 2rem;
   font-size: 1.2rem;
 }
-#heroCarousel .carousel-item .ctaButtons {
+.carousel-item .ctaButtons {
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
-#heroCarousel .carousel-item .ctaButtons a {
+.carousel-item a {
   border: 2px solid #ffc451;
   padding: 10px 25px;
   border-radius: 30px;
@@ -29955,9 +29957,35 @@ textarea.form-control-lg {
   text-decoration: none;
   transition: 0.3s;
 }
-#heroCarousel .carousel-item .ctaButtons a:hover {
+.carousel-item a:hover {
   background: #ffc451;
   color: black;
+}
+
+.aboutSection {
+  background-color: rgb(255, 250, 243);
+  display: flex;
+  flex-direction: row;
+  padding-top: 5vw;
+  gap: 2vw;
+  height: 60vh;
+  padding-inline: 15vw;
+}
+
+div ul {
+  padding: 0;
+  list-style: none;
+}
+div li {
+  padding-bottom: 10px;
+}
+div li i {
+  font-size: 1.2vw;
+}
+
+img {
+  width: 30vw;
+  height: 40vh;
 }
 
 /*# sourceMappingURL=app.css.map */
