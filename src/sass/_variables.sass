@@ -1,0 +1,13 @@
+@import ../../node_modules/bootstrap/scss/_functions
+@import ../../node_modules/bootstrap/scss/_variables
+
+$orange: hsl(36, 100%, 62%)
+
+$colors: ("orange": $orange)
+
+$theme-colors: map-merge($theme-colors, $colors)
+
+$spacer : 2vw
+
+@for $i from 1 through 50 
+    $spacers: map-merge($spacers, ($i : $spacer * $i) )
