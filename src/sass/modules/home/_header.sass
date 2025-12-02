@@ -1,0 +1,86 @@
+*
+  margin: 0
+  padding: 0
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap')
+
+// Main header
+#mainHeader
+  position: fixed
+  top: 0
+  left: 0
+  bottom: auto
+  width: 100%
+  z-index: 10
+  padding: 15px 0
+  background: rgba(0, 0, 0, 0.336)
+
+  .topBar
+    height: 20px
+    font-size: 14px
+    color: #fff
+    margin-bottom: 10px
+    i
+      color: #ffb03b
+      span
+        color: #fff
+        padding-left: 5px
+        font-family: Arial, Helvetica, sans-serif
+
+  .Logo
+    font-family: 'Satisfy', sans-serif
+    font-size: 28px
+    margin: 0
+    padding: 0
+    line-height: 1
+    font-weight: 600
+    letter-spacing: 1px
+    a
+      color: #fff
+      text-decoration: none
+.navigation
+    ul
+      margin: 0
+      padding: 0
+      display: flex
+      list-style: none
+      align-items: center
+      li
+        position: relative
+        white-space: nowrap
+        padding: 10px 0 10px 24px
+        a
+          display: flex
+          align-items: center
+          justify-content: space-between
+          padding: 0 3px
+          font-family: "Poppins", sans-serif
+          font-size: 15px
+          font-weight: 600
+          color: rgba(255, 255, 255, 0.7)
+          white-space: nowrap
+          transition: 0.3s
+          position: relative
+          text-decoration: none
+          &:hover, &.active
+            color: #ffb03b
+
+    .mobilecheck
+      display: none 
+
+.bookTableBtn
+    margin: 0 0 0 15px
+    border: 2px solid #ffb03b
+    color: #fff
+    border-radius: 50px
+    padding: 8px 25px
+    text-transform: uppercase
+    font-size: 13px
+    font-weight: 500
+    letter-spacing: 1px
+    transition: 0.3s
+    text-decoration: none
+    background: #ffb03b
+    &:hover
+        background: #ffc451
+        color: #fff
