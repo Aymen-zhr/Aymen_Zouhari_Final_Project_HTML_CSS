@@ -30145,4 +30145,10 @@ textarea.form-control-lg {
   height: 34vh;
 }
 
+.map iframe {
+  padding-top: 5vw;
+  width: 100%;
+  height: 60vh;
+}
+
 /*# sourceMappingURL=app.css.map */
