@@ -30026,6 +30026,13 @@ textarea.form-control-lg {
   background-color: rgb(249, 249, 249);
   padding: 4vw;
 }
+.whysection .cubescontainer .cubes .numb {
+  color: #ffc451;
+}
+.whysection .cubescontainer .cubes:hover {
+  color: white;
+  background-color: hsl(36, 100%, 62%);
+}
 .whysection .cubescontainer .cubes .cubetitle {
   font-size: 1.2vw;
   font-family: "Satisfy", sans-serif;
@@ -30136,6 +30143,23 @@ textarea.form-control-lg {
 .gallery img {
   width: 24.9vw;
   height: 34vh;
+}
+
+.caro {
+  padding-inline: 7vw;
+}
+
+.caro-bg {
+  background-image: url("../img/events-bg.jpg");
+  height: 100vh;
+  filter: brightness(50%);
+}
+
+.carousel-img {
+  filter: brightness(100%) !important;
+}
+.carousel-img img {
+  width: 90%;
 }
 
 /*# sourceMappingURL=app.css.map */
