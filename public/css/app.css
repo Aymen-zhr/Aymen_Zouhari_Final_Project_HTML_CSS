@@ -30145,21 +30145,4 @@ textarea.form-control-lg {
   height: 34vh;
 }
 
-.caro {
-  padding-inline: 7vw;
-}
-
-.caro-bg {
-  background-image: url("../img/events-bg.jpg");
-  height: 100vh;
-  filter: brightness(50%);
-}
-
-.carousel-img {
-  filter: brightness(100%) !important;
-}
-.carousel-img img {
-  width: 90%;
-}
-
 /*# sourceMappingURL=app.css.map */
