@@ -30151,25 +30151,83 @@ textarea.form-control-lg {
   height: 60vh;
 }
 
-.contact {
+.contactTitle {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
   display: flex;
-  flex-direction: row;
+  gap: 2vw;
 }
-.contact .contactcontent {
-  width: 25vw;
+.contactTitle .contacttitle {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding: 0.8vw;
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.contact .contactcontent h2, .contact .contactcontent .h2 {
+.contactTitle .contacttitle h2, .contactTitle .contacttitle .h2 {
   font-family: "Satisfy", sans-serif;
 }
-.contact .contactcontent p {
+.contactTitle .contacttitle p {
+  font-size: 0.8vw;
   opacity: 0.8;
 }
-.contact .contactinfo {
-  background-color: red;
+.contactTitle .contactpara {
+  margin-top: 2vw;
+  font-size: 1vw;
+  font-weight: 700;
+}
+.contactTitle .contactpara .contact {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5vw;
+}
+.contactTitle .contactpara .contact i {
+  font-size: 1.3vw;
+  color: #ffc451;
+  padding-right: 0.5vw;
+}
+.contactTitle .contactpara .contact .infos {
+  font-family: "Satisfy", sans-serif;
+  font-size: 1.2vw;
+}
+.contactTitle .contactpara .contact .infos-text {
+  font-size: 0.8vw;
+  opacity: 0.8;
+}
+.contactTitle .contactform {
+  display: flex;
+  flex-direction: column;
+  flex: 1.5;
+}
+.contactTitle .contactform form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.contactTitle .contactform form .form-row {
+  display: flex;
+  gap: 1vw;
+}
+.contactTitle .contactform form .form-row .form-group {
+  flex: 1;
+}
+.contactTitle .contactform form .form-group {
+  width: 100%;
+}
+.contactTitle .contactform form .form-group input, .contactTitle .contactform form .form-group textarea {
+  width: 100%;
+  padding: 0.8vw;
+}
+.contactTitle .contactform form .form-group textarea {
+  min-height: 10vw;
+  resize: vertical;
+}
+.contactTitle .contactform form button {
+  background-color: #ffc451;
+  border: none;
+  padding: 0.8vw 2vw;
+  align-self: center;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=app.css.map */
