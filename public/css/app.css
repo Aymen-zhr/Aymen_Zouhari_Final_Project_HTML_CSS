@@ -30230,4 +30230,39 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 
+.testimonial {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  background-image: url("../img/testimonials-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+.testimonial .testimonials-img {
+  display: flex;
+  flex-direction: column;
+}
+.testimonial .testimonials-img img {
+  width: 10vw;
+  height: 20vh;
+  border: 10px solid rgba(0, 0, 0, 0.0862745098);
+  border-radius: 50%;
+}
+.testimonial .testimonials-text h5, .testimonial .testimonials-text .h5 {
+  font-family: "Satisfy", sans-serif;
+  padding: 0;
+}
+.testimonial .testopara {
+  font-family: "Satisfy", sans-serif;
+  opacity: 0.8;
+  font-size: 0.8vw;
+  padding: 0;
+}
+
+.button-circle button {
+  border-radius: 50%;
+  width: 12px !important;
+  height: 12px !important;
+}
+
 /*# sourceMappingURL=app.css.map */
