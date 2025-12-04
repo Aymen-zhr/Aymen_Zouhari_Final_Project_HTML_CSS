@@ -30313,4 +30313,123 @@ textarea.form-control-lg {
   width: fit-content;
 }
 
+.menu-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-header .menu-label {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #fffaf3;
+  color: #ffb03b;
+}
+
+.menu-header h3, .menu-header .h3 {
+  font-family: "Pacifico", cursive;
+}
+
+.menu-header span {
+  color: #ffb03b;
+}
+
+.menu-filter-tabs {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  font-family: "Satisfy", sans-serif;
+}
+
+.menu-filter-tabs label {
+  cursor: pointer;
+  color: #000000;
+}
+.menu-filter-tabs label:hover {
+  color: #ffc451;
+}
+
+.menu-item {
+  display: flex;
+  column-gap: 20px;
+}
+
+.menu-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.menu-content {
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+}
+
+.menu-item-header {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.menu-item-header a {
+  text-decoration: none;
+  color: #433f39;
+  font-size: 20px;
+}
+
+.menu-item-header p {
+  margin-top: 10px;
+  color: #ffb03b;
+}
+
+.menu-item img {
+  width: 80px;
+  border-radius: 50%;
+  border: 8px solid #ececec;
+}
+
+.dotted-line {
+  width: 200px;
+  border: 1px dotted #000000;
+}
+
+#filter-all, #filter-starters, #filter-salads, #filter-specialty {
+  display: none;
+}
+
+#filter-all:checked ~ .menu-column > .menu-item {
+  display: flex;
+}
+
+#filter-starters:checked ~ .menu-column-left > .menu-item[data-category=specialty],
+#filter-starters:checked ~ .menu-column-left > .menu-item[data-category=salads] {
+  display: none;
+}
+
+#filter-starters:checked ~ .menu-column-right > .menu-item[data-category=salads],
+#filter-starters:checked ~ .menu-column-right > .menu-item[data-category=specialty] {
+  display: none;
+}
+
+#filter-salads:checked ~ .menu-column-left > .menu-item[data-category=starters],
+#filter-salads:checked ~ .menu-column-left > .menu-item[data-category=specialty] {
+  display: none;
+}
+
+#filter-salads:checked ~ .menu-column-right > .menu-item[data-category=starters],
+#filter-salads:checked ~ .menu-column-right > .menu-item[data-category=specialty] {
+  display: none;
+}
+
+#filter-specialty:checked ~ .menu-column-left > .menu-item[data-category=starters],
+#filter-specialty:checked ~ .menu-column-left > .menu-item[data-category=salads] {
+  display: none;
+}
+
+#filter-specialty:checked ~ .menu-column-right > .menu-item[data-category=starters],
+#filter-specialty:checked ~ .menu-column-right > .menu-item[data-category=salads] {
+  display: none;
+}
+
 /*# sourceMappingURL=app.css.map */
